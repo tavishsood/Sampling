@@ -8,16 +8,13 @@ The objective is to understand the importance of sampling techniques in handling
 
 ## Methodology
 
-1. 
-**Dataset**: The credit card dataset was sourced from the specified GitHub repository. 
+1. **Dataset**: The credit card dataset was sourced from the specified GitHub repository. 
 
 
-2. 
-**Data Balancing**: The original dataset was imbalanced. I converted it into a balanced class dataset using manual oversampling to equalize the classes. 
+2. **Data Balancing**: The original dataset was imbalanced. I converted it into a balanced class dataset using manual oversampling to equalize the classes. 
 
 
-3. 
-**Sampling Techniques**: Five distinct sampling techniques were applied: 
+3. **Sampling Techniques**: Five distinct sampling techniques were applied: 
 
 
 * **Sampling 1**: Simple Random Sampling
@@ -27,8 +24,7 @@ The objective is to understand the importance of sampling techniques in handling
 * **Sampling 5**: Bootstrap Sampling
 
 
-4. 
-**Models Evaluated**: Five different ML models were tested: 
+4. **Models Evaluated**: Five different ML models were tested: 
 
 
 * **M1**: Logistic Regression
