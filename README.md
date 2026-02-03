@@ -3,17 +3,17 @@
 This repository contains a complete analysis of how various sampling techniques affect the accuracy of machine learning models when dealing with imbalanced datasets.
 
 ## Objective
-[cite_start]The goal is to balance a highly imbalanced credit card dataset, apply different sampling strategies, and determine which model-sampling combination yields the highest accuracy[cite: 9, 12].
+The goal is to balance a highly imbalanced credit card dataset, apply different sampling strategies, and determine which model-sampling combination yields the highest accuracy[cite: 9, 12].
 
 ## Methodology
-1.  **Data Balancing**: The original dataset was imbalanced. [cite_start]I used manual oversampling to equalize the classes[cite: 17].
+1.  **Data Balancing**: The original dataset was imbalanced. I used manual oversampling to equalize the classes.
 2.  **Sampling Techniques**:
     * **Sampling 1**: Simple Random Sampling
     * **Sampling 2**: Systematic Sampling
     * **Sampling 3**: Stratified Sampling
     * **Sampling 4**: Cluster Sampling
     * **Sampling 5**: Bootstrap Sampling
-3.  [cite_start]**Models Evaluated**: Logistic Regression (M1), Random Forest (M2), SVC (M3), Decision Tree (M4), and KNN (M5)[cite: 20].
+3.  **Models Evaluated**: Logistic Regression (M1), Random Forest (M2), SVC (M3), Decision Tree (M4), and KNN (M5)[cite: 20].
 
 ## Results
 The following table summarizes the accuracy (%) for each model and sampling technique:
