@@ -51,8 +51,7 @@ The following table summarizes the accuracy (%) achieved for each model and samp
 
 ## Discussion & Analysis
 
-* 
-**Model Performance**: The **Random Forest (M2)** model emerged as the most robust, achieving 100% accuracy across almost all sampling techniques.  This is likely due to its ensemble nature, which effectively captures the patterns in the oversampled minority class.
+* **Model Performance**: The **Random Forest (M2)** model emerged as the most robust, achieving 100% accuracy across almost all sampling techniques.  This is likely due to its ensemble nature, which effectively captures the patterns in the oversampled minority class.
 
 
 * **Sampling Efficacy**: **Bootstrap Sampling (Sampling 5)** and **Stratified Sampling (Sampling 3)** provided the most consistent results. Stratified sampling was particularly effective because it ensured that the balanced proportions of the dataset were preserved in the smaller sub-samples.
