@@ -56,7 +56,3 @@ The following table summarizes the accuracy (%) achieved for each model and samp
 
 * **Sampling Efficacy**: **Bootstrap Sampling (Sampling 5)** and **Stratified Sampling (Sampling 3)** provided the most consistent results. Stratified sampling was particularly effective because it ensured that the balanced proportions of the dataset were preserved in the smaller sub-samples.
 * **Observation on SVC**: **SVC (M3)** showed the lowest overall performance. This suggests that the high-dimensional nature of the credit card dataset may require more complex parameter tuning for Support Vector Machines compared to tree-based models like Random Forest or Decision Trees.
-
-## Conclusion
-
-For this specific credit card fraud dataset, using an ensemble model (M2) paired with a stratified or bootstrap sampling approach (S3/S5) yields the most reliable classification results.  
